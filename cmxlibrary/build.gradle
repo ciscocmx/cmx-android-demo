@@ -1,0 +1,32 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        minSdkVersion 10
+        targetSdkVersion 17
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':library')
+    compile project(':facebookSDK')
+    compile 'com.android.support:appcompat-v7:19.1.0'
+    compile 'com.google.android.gms:play-services:+'
+    compile files('libs/androidasynchttp.jar')
+    compile files('libs/androidsvg.jar')
+    compile files('libs/cmx-core-1.0.14.jar')
+    compile files('libs/cmx-ui-1.0.14.jar')
+    compile files('libs/imageviewtouch.jar')
+    compile files('libs/nineoldandroids-2.4.0.jar')
+    compile files('libs/twitter4j-core-3.0.5.jar')
+}

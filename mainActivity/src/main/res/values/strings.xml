@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CMX Coordinates Sample</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_feedback">Feedback</string>
+
+    <string name="settings_server_address">Server Address</string>
+    <string name="settings_network_category">Network</string>
+    <string name="settings_senderid">Sender ID</string>
+    <string name="title_settings_activity">Settings</string>
+    
+    <!-- Activities title -->
+    <string name="settings_activity_title">Settings</string>
+    
+    <string name="default_settings_server_port">8082</string>
+    <string name="default_settings_server_address">171.70.240.114</string>
+	<string name="default_settings_senderid">349945506936</string>  
+</resources>

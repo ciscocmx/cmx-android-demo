@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="imageviewtouch">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/cmxlibrary/libs/imageviewtouch.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

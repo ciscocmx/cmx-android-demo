@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <CheckBoxPreference android:title="@string/cmx_settings_push_notification_enabled" android:key="prefPushNotifications" android:defaultValue="@string/cmx_default_settings_push_notification_enabled"/>
+    <PreferenceCategory android:title="@string/settings_network_category">
+        <EditTextPreference android:title="@string/settings_server_address" android:key="prefServerAddress" android:defaultValue="@string/default_settings_server_address"/>
+    </PreferenceCategory>
+</PreferenceScreen>
