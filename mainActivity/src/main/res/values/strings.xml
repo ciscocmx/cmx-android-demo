@@ -14,6 +14,6 @@
     <string name="settings_activity_title">Settings</string>
     
     <string name="default_settings_server_port">8082</string>
-    <string name="default_settings_server_address">171.70.240.114</string>
+    <string name="default_settings_server_address">171.70.232.92</string>
 	<string name="default_settings_senderid">349945506936</string>  
 </resources>

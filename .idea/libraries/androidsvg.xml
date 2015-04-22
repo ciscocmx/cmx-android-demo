@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="androidsvg">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/cmxlibrary/libs/androidsvg.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

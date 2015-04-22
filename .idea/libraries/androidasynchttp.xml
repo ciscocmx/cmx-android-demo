@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="androidasynchttp">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/cmxlibrary/libs/androidasynchttp.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

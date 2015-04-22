@@ -112,6 +112,9 @@ public class MainActivity extends Activity implements OnSharedPreferenceChangeLi
                 mMapLocation.setText("(" + clientLocation.getMapCoordinate().getX() + " / " + clientLocation.getMapCoordinate().getY() + ")");
                 mLocationServerTime.setText(DateFormat.getDateTimeInstance().format(new Date(clientLocation.getLastLocationUpdateTime())));
                 mLocationTime.setText(DateFormat.getDateTimeInstance().format(new Date()));
+
+                Log.i("CMX", "X Location: " + clientLocation.getMapCoordinate().getX());
+                Log.i("CMX", "Y Location: " + clientLocation.getMapCoordinate().getY());
             }
             super.handleMessage(msg);
             }
